@@ -1,0 +1,92 @@
+/* Basic reset */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1ea4c5;
+    color: #ac1295;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Card styles */
+  .card {
+    background: #ae2727;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(112, 35, 10, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-footer {
+    background: #333;
+    color: #14c048;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  /* Container styles */
+  .container {
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 2em;
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #1981b9;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  ul li {
+    padding: 5px 0;
+    font-size: 1em;
+    color: #46a020;
+  }
+  
+  /* Section styles */
+  .mb-4 {
+    margin-bottom: 1.5rem !important;
+  }
+  
+  .mt-4 {
+    margin-top: 1.5rem !important;
+  }
+  
+  /* Row and Column styles */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+  }
+  
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 15px;
+  }
+  
+  /* Card mb-4 for individual cards */
+  .card.mb-4 {
+    border: 1px solid #1c71c6;
+    border-radius: 5px;
+  }
+  

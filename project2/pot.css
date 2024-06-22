@@ -1,0 +1,156 @@
+/* Reset some basic elements for consistency */
+body, h1, h2, h3, h4, p, a, ul, li, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  /* Set basic styles for the body */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Container for the card */
+  .card {
+    background: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+  }
+  
+  /* Header styles */
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile-image {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .header h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+  }
+  
+  .header h2 {
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  /* Navigation styles */
+  .nav {
+    margin-bottom: 20px;
+    background-color: #007bff;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .nav a:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Main content styles */
+  main {
+    margin-bottom: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    font-size: 1em;
+    color: #555;
+  }
+  
+  /* Personal details styles */
+  .cardmb-5 {
+    margin-bottom: 20px;
+  }
+  
+  .cardmb-5 p {
+    margin-bottom: 10px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-col {
+    flex: 1;
+    padding: 20px;
+    min-width: 200px;
+  }
+  
+  .footer-col h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .footer-col ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-col ul li a {
+    color: #fff;
+  }
+  
+  .footer-col ul li a:hover {
+    color: #007bff;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+    font-size: 1.5em;
+  }
+  
+  .social-icons a:hover {
+    color: #007bff;
+  }
+  
+  .bottom-bar {
+    text-align: center;
+    padding: 10px;
+    background: #222;
+  }
+  
